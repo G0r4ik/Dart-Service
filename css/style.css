@@ -2,11 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
+.color {
+    color:#00b8d4;
+    color:#061e37;
+    color:#1de9b6;
+    color:#78909c;
+    color:#80d8ff;
+    color:#82b1ff;
+    color:#90a4ae;
+    color:#b0bec5;
+    color:#b388ff;
+    color:#ea80fc;
+    color:#fafafa;
+    color:#ffffff;
+}
 .container {
     margin: 0 auto;
     max-width: 1440px;
 }
-

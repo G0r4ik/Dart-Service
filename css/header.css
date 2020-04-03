@@ -1,0 +1,103 @@
+header {
+    background-image: linear-gradient(to right, #1de9b698, #00b8d48a), url(/img/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav__link {
+    display: inline-block;
+    margin-left: 45px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.signup {
+    background: none;
+    border: none;
+    padding: 4.5px 18.5px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.nav__link__list:hover {
+    color: #061e37;;
+}
+
+.logo__text {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+
+
+
+.bottom-header {
+    justify-content: space-between;
+    margin-top:145px;
+    display: flex;
+    padding-bottom: 185px;
+
+}
+
+.title {
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 65px;
+    font-weight: 800;
+}
+
+.bottom-header__text {
+    width: 580px;
+}
+
+.bottom-header__text__text {
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.buynow {
+    background: #061e37;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-top: 35px;
+    outline: none;
+}
+
+.tryforfree {
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #061e37;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+   
+}
