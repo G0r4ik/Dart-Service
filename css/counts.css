@@ -3,17 +3,11 @@
     text-align: center;
     align-items: center;
     margin-top: 100px;
-    
 }
 
 .count {
     width: 25%;
-   
-    
-    
 }
-
-
 
 .counts__text {
     display: inline;
@@ -26,15 +20,12 @@
     background: #fff;
     border-radius: 100%;;
     padding: 15px;
-    
 }
 
 .count1 {
     background:#80d8ff;
     padding: 40px 0px;
     align-items: center;
-    
-    
 }
 .count2 {
     background:#82b1ff;
