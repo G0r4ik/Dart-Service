@@ -1,11 +1,14 @@
 .team {
     text-align: center;
+    width: 555px;
     
 }
-
-
-
-
+.team__container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-right: 0;
+}
 .team__h2 {
     font-size: 45px;
     line-height: 1.2;
@@ -22,26 +25,11 @@
     padding-bottom: 90px;
 }
 
-.avatar {
-    width: 100px;
-    margin-right: 45px;
-    opacity: 0.2;
-}
-
-.avatar:nth-child(3) {
-    margin-right: 0;
-}
 
 .avatar:hover {
     opacity: 1;
     width: 163px;
-}
-
-.avatars {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
+    transition:  2s ease;
 }
 
 .team__name {
@@ -49,6 +37,7 @@
     line-height: 25px;
     font-weight: 700;
     color: #061e37;
+    
 }
 
 .team__text {
@@ -64,3 +53,33 @@
 .avatar:hover + .avatardroptext{
     display:block;
 }
+
+.avatars {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.avatar {
+    width: 100px;
+    opacity: 0.2;
+    z-index: 2;
+    margin-bottom: 65px;
+}
+
+.avatar__info:nth-child(3) {
+    padding-right:0;
+}
+
+.avatar__info {
+    padding-right:45px;
+
+}
+
+.avatardroptext {
+    width: 600px;
+    z-index: 1;
+}
+
+/* фикс картинок */
